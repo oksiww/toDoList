@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px 0 15px;
+    &-item {
+        width: 320px;
+    }
+    &-time {
+        height: 48.2px;
+        border-radius: 10px
+    }
+    &-btn {
+        background-color: #9ba5e8;;
+        height: 48px;
+        width: 120px;
+        border-radius: .5rem;
+        border-color: #9ba5e8;;
+        font-size: 18px;
+        color: #000;
+        opacity: 70%;
+    }
+}

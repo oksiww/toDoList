@@ -1,0 +1,23 @@
+.update_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+    &-form {
+        width: 260px;
+    }
+    &-btn {
+        background-color: yellow;
+        height: 48px;
+        width: 100px;
+        border-radius: .5rem;
+        border-color: yellow;
+        font-size: 18px;
+        color: #000;
+        opacity: 70%;
+        &-second {
+            background-color: red;
+            border-color: red;
+            opacity: 80%;
+        }
+    }
+}
